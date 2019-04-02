@@ -1,4 +1,4 @@
-1. What's the output of the following code?
+## What's the output of the following code?
 ```
 array = [1, 8, 15] 
 g = (x for x in array if array.count(x) > 0) 
@@ -11,19 +11,19 @@ print(list(g))
 * `[8]`
 * `[22]`
 
-2. What the difference between the following lines and in which one is better to use?
+## What the difference between the following lines and in which one is better to use?
 ```
 (x for x in "123456789")
 [x for x in "123456789"]
 ```
 
-3. Which of the following methods return a boolean value?
+## Which of the following methods return a boolean value?
 * `all()`
 * `max()`
 * `map()`
 * `any()`
 
-4. What's the type of the variable `a`?
+## What's the type of the variable `a`?
 ```
 a = ('inf')
 ```
